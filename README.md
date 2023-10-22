@@ -1,19 +1,26 @@
-# Jekyll I18n
+# Beautiful Nepal 
 
-This is the minimal [Jekyll](https://jekyllrb.com) base template to quickly start playing with.
+__Beautiful Nepal__ is a Nepelase youth led community project in an effort to make the Nepal beautiful digitally in the Web world.
 
-# What it includes
+# Tech Stack
 
-- [Bootstrap v4.5.0](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
-- [Fontawesome v5.13.1](https://fontawesome.com/)
-- Google Analytics include file
-- `About` and `Blogs` page
-- A `custom.js` inside `assets/js/`
+- [Jekyll v4.3.2](https://jekyllrb.com/)
+- [Bootstrap v5.3.2](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 
-### Play and enjoyee!
+# Get started with Development
 
+You can get started with the development of this project using following ways:
 
-# Run with Docker
+## With Ruby installed
+
+If you have Ruby installed, then just run the following command:
+
+```sh
+bundle install
+jekyll serve -l --watch
+```
+
+## Run with Docker
 
 1. Go into this project directory
 2. Run the following command:
