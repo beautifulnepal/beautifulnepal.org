@@ -3,8 +3,17 @@ $color-primary: #FFCF00;
 $color-secondary: #BD3228;
 $font-primary: 'Lato', sans-serif;
 $font-secondary: 'Lora', serif;
-$font-kalam: 'Kalam', cursive;
 $font-courgette: 'Courgette', cursive;
+
+.font-primary {
+  font-family: $font-primary;
+}
+.font-secondary {
+  font-family: $font-secondary;
+}
+.font-courgette {
+  font-family: $font-courgette;
+}
 
 html,
 body {

@@ -16,3 +16,16 @@
     }
   }
 }
+
+@media screen and (max-width: 520px) {
+  .navbar {
+    .navbar-brand {
+      .navbar-brand-logo {
+        height: 45px;
+      }
+      .navbar-brand-text {
+        font-size: 1.6rem;
+      }
+    }
+  }
+}
