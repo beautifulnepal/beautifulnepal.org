@@ -1,0 +1,18 @@
+// navbar css
+.navbar {
+  padding: 4px 0;
+
+  .navbar-brand {
+    .navbar-brand-logo {
+      height: 60px;
+    }
+    .navbar-brand-text {
+      font-family: $font-courgette;
+      text-decoration: none;
+      vertical-align: middle;
+      font-size: 2.2rem;
+      font-weight: 600;
+      color: $color-secondary;
+    }
+  }
+}
