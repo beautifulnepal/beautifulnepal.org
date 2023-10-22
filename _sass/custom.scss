@@ -1,5 +1,10 @@
 /* Custom SCSS */
-$color-primary: #ddd;
+$color-primary: #FFCF00;
+$color-secondary: #BD3228;
+$font-primary: 'Lato', sans-serif;
+$font-secondary: 'Lora', serif;
+$font-kalam: 'Kalam', cursive;
+$font-courgette: 'Courgette', cursive;
 
 html,
 body {
@@ -9,6 +14,7 @@ body {
   font-family: "Helvetica", Arial, sans-serif;
   font-size: 16px;
 }
+
 .page-margin {
   margin-top: 100px;
 }
@@ -46,5 +52,6 @@ main {
 }
 
 @import "animate.min";
+@import "navbar";
 @import "home";
 @import "responsive";

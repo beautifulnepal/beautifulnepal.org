@@ -1,10 +1,10 @@
 title: Beautiful Nepal
 email: c2edevofficial@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  The minimal Jekyll base template with I18n support to quickly start with.
+  Beautifying Nepal digitally in Web
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-image_base_url: /assets/img
+url: "https://beautifulnepal.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+asset_base_url: /assets
 
 google_analytics: # your google analytics id
 
