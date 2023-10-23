@@ -56,8 +56,10 @@ main {
 #page-content {
   flex: 1 0 auto;
 }
-#sticky-footer {
-  flex-shrink: none;
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 @import "animate.min";
