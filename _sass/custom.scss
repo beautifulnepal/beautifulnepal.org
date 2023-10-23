@@ -20,15 +20,12 @@ body {
   height: 100%;
 }
 body {
-  font-family: "Helvetica", Arial, sans-serif;
+  font-family: $font-primary;
   font-size: 16px;
 }
 
 .page-margin {
   margin-top: 100px;
-}
-main {
-  height: 100vh;
 }
 
 #coming_soon {
@@ -53,14 +50,11 @@ main {
   }
 }
 
-#page-content {
-  flex: 1 0 auto;
-}
-footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
+// footer {
+//   position: fixed;
+//   bottom: 0;
+//   width: 100%;
+// }
 
 @import "animate.min";
 @import "navbar";

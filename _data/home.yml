@@ -13,3 +13,16 @@ banner:
     - title: Buddha Birthplace, Lumbini
       img: /img/banner/lumbini.jpg
       url: /#
+
+landscape_section:
+  places_list:
+    - place_name: Everest Basecamp
+    - place_name: Kathmandu Valley
+    - place_name: Pokhara City
+    - place_name: Chitwan National Park
+    - place_name: Lumbini
+    - place_name: Annapurna Basecamp
+    - place_name: Janakpur
+    - place_name: Mustang-Manang
+    - place_name: Bardia National Park
+    - place_name: Sindhuli Gadhi

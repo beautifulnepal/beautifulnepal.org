@@ -1,5 +1,5 @@
 // home page css
-.home-page {
+.home_page {
   .banner-section {
     #bannerSlider {
       .carousel-indicators [data-bs-target] {
@@ -52,10 +52,38 @@
       }
     }
   }
+
+  .landscape-section {
+    padding: 5rem 0;
+
+    .title {
+      font-size: 2.8rem;
+      font-family: $font-secondary;
+      margin-bottom: 1.5rem;
+    }
+    .places-list {
+      list-style: none;
+      padding-left: 0;
+
+      li {
+        display: flex;
+        gap: 10px;
+        align-items: self-start;
+
+        .place-icon {
+          font-size: 35px;
+          color: red;
+        }
+        .place-text {
+          font-size: 20px;
+        }
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 520px) {
-  .home-page {
+  .home_page {
     .banner-section {
       #bannerSlider {
         .carousel-item {
