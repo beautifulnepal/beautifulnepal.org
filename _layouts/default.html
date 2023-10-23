@@ -4,7 +4,7 @@
   {%- include head.html -%}
 
   <body>
-    <div id="page-content">
+    <div id="page-content" class="{{ page.page_name | downcase }}_page">
       {% unless page.coming_soon %}
         <header>
           {% include navbar.html %}

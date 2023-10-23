@@ -1,0 +1,22 @@
+<div class="landscape-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h1 class="title">Places to Visit</h1>
+        <div class="places-list-wrapper">
+          <ul class="places-list">
+            {% for place in site.data.home.landscape_section.places_list %}
+              <li>
+                <span class="place-icon material-symbols-outlined">where_to_vote</span>
+                <span class="place-text">{{ place.place_name }}</span>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <img src="{{ site.asset_base_url }}/img/tourist-map.png" class="img-fluid py-4" alt="Nepal Landscape">
+      </div>
+    </div>
+  </div>
+</div>
