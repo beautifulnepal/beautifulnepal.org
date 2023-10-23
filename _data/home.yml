@@ -1,0 +1,15 @@
+# banner
+banner:
+  slider:
+    - title: Mount Everest
+      img: /img/banner/everest.jpg
+      url: /#
+    - title: Pokhara City
+      img: /img/banner/pokhara.jpg
+      url: /#
+    - title: Baudha, Kathmandu
+      img: /img/banner/kathmandu.jpg
+      url: /#
+    - title: Buddha Birthplace, Lumbini
+      img: /img/banner/lumbini.jpg
+      url: /#

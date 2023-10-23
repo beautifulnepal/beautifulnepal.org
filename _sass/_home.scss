@@ -1,1 +1,74 @@
 // home page css
+.home-page {
+  .banner-section {
+    #bannerSlider {
+      .carousel-indicators [data-bs-target] {
+        border-top: 0;
+        border-bottom: 0;
+        height: 15px;
+        width: 15px;
+        border-radius: 25px;
+        margin-bottom: 1rem;
+      }
+      .carousel-control-next-icon, .carousel-control-prev-icon {
+        width: 40px;
+        height: 40px;
+      }
+      .carousel-item {
+        .carousel-caption {
+          font-size: 1.5rem;
+          font-weight: 300;
+          left: 0 !important;
+          text-align: left;
+          background-color: #20305F;
+          opacity: 0.9;
+          bottom: 5rem;
+          padding: 1rem;
+          right: auto;
+          padding-right: 10rem;
+
+          p {
+            margin-left: 4rem;
+          }
+          .btn-details {
+            padding: 0.25rem 1.5rem;
+            display: inline-block;
+            background-color: #BB0707;
+            color: #fff;
+            font-size: 16px;
+            font-weight: 500;
+            border-radius: 0;
+            margin-left: 1rem;
+
+            img {
+              height: 25px;
+            }
+          }
+        }
+        img {
+          height: 90vh;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .home-page {
+    .banner-section {
+      #bannerSlider {
+        .carousel-item {
+          .carousel-caption {
+            padding-right: 2rem;
+
+            p {
+              margin-left: 1rem;
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
