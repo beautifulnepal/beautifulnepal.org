@@ -13,11 +13,11 @@ You can get started with the development of this project using following ways:
 
 ## With Ruby installed
 
-If you have Ruby installed, then just run the following command:
+If you have [Ruby](https://www.ruby-lang.org/en/documentation/) installed, then just run the following command:
 
 ```sh
 bundle install
-jekyll serve -l --watch
+bundle exec jekyll serve -l --watch
 ```
 
 ## Run with Docker
@@ -25,4 +25,6 @@ jekyll serve -l --watch
 1. Go into this project directory
 2. Run the following command:
   
-   docker run -p 4000:4000 -v $(pwd):/site bretfisher/jekyll-serve
+  ```
+  docker run -p 4000:4000 -v $(pwd):/site bretfisher/jekyll-serve
+  ```
