@@ -1,6 +1,6 @@
 # Beautiful Nepal 
 
-__Beautiful Nepal__ is a Nepelase youth led community project in an effort to make the Nepal beautiful digitally in the Web world.
+__Beautiful Nepal__ is a community project in an effort to make the Nepal beautiful digitally in the Web World.
 
 # Tech Stack
 
