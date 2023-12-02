@@ -1,6 +1,6 @@
-# Beautiful Nepal 
+# Beautiful Nepal - piece of Heaven 
 
-__Beautiful Nepal__ is a community project in an effort to make the Nepal beautiful digitally in the Web World.
+__Beautiful Nepal__ is a community-led project in an effort to make the Nepal beautiful digitally and proof that a __piece of Heaven__ exists in the world.
 
 # Tech Stack
 
