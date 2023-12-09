@@ -29,6 +29,11 @@ body {
 }
 
 #coming_soon {
+  background-image: url($asset_base_url + "/img/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
   * {
     box-sizing: border-box;
   }
@@ -40,12 +45,12 @@ body {
     justify-content: center;
   }
   h1 {
-    color: #1200AF;
+    color: #fff;
     font-size: 4rem;
     margin-bottom: 0;
   }
   p {
-    color: red;
+    color: yellow;
     font-size: 2rem;
   }
 }
