@@ -1,38 +1,40 @@
 <!-- banner -->
 {% assign banner = site.data.home.banner %}
 <div class="banner-section">
-  <div class="banner-wrapper">
-    <div id="bannerSlider" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#bannerSlider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#bannerSlider" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#bannerSlider" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        <button type="button" data-bs-target="#bannerSlider" data-bs-slide-to="3" aria-label="Slide 4"></button>
-      </div>
+  <div class="banner-container">
+    <div class="banner-wrapper">
+      <div id="bannerSlider" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#bannerSlider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#bannerSlider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#bannerSlider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#bannerSlider" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
 
-      <div class="carousel-inner">
-        {% for slide in banner.slider %}
-          <div class="carousel-item{% if forloop.index == 1 %} active{% endif %}">
-            <img src="{{ site.asset_base_url }}{{ slide.img }}" class="d-block w-100" alt="{{ slide.title }}">
-            <div class="carousel-caption">
-              <p class="mb-0">
-                {{ slide.title }}
-                <!-- <a href="{{ slide.url }}" class="btn btn-details">Details
-                  <span class="material-symbols-outlined align-middle fw-bold">arrow_forward_ios</span>
-                </a> -->
-              </p>
+        <div class="carousel-inner">
+          {% for slide in banner.slider %}
+            <div class="carousel-item{% if forloop.index == 1 %} active{% endif %}">
+              <img src="{{ site.asset_base_url }}{{ slide.img }}" class="d-block w-100" alt="{{ slide.title }}">
+              <div class="carousel-caption">
+                <p class="mb-0">
+                  {{ slide.title }}
+                  <!-- <a href="{{ slide.url }}" class="btn btn-details">Details
+                    <span class="material-symbols-outlined align-middle fw-bold">arrow_forward_ios</span>
+                  </a> -->
+                </p>
+              </div>
             </div>
-          </div>
-        {% endfor %}
+          {% endfor %}
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#bannerSlider" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#bannerSlider" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#bannerSlider" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#bannerSlider" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
     </div>
   </div>
 </div>

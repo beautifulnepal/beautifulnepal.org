@@ -1,6 +1,19 @@
 // home page css
+.navbar {
+  .container {
+    max-width: 80%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
 .home_page {
   .banner-section {
+    margin-top: 2rem;
+
+    .banner-container {
+      max-width: 80%;
+      margin: auto;
+    }
     #bannerSlider {
       .carousel-indicators [data-bs-target] {
         border-top: 0;
@@ -45,7 +58,7 @@
           }
         }
         img {
-          height: 90vh;
+          height: 70vh;
           object-fit: cover;
         }
       }
