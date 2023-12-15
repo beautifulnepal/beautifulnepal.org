@@ -76,10 +76,10 @@
 
         .place-filter-btn {
           text-decoration: none;
-          color: #777;
+          color: #999;
           font-weight: 600;
         }
-        .place-filter-btn:active {
+        .place-filter-btn.active, .place-filter-btn:hover {
           color: #111;
         }
       }
