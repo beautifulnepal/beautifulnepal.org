@@ -10,15 +10,9 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mx-auto mb-2 mb-lg-0 text-center">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
         <li class="nav-item {% if page.page_name == 'home' %}active{% endif %}">
           <a class="nav-link" href="{{ '/' | prepend: site.baseurl }}">Home</a>
-        </li>
-        <li class="nav-item {% if page.page_name == 'about' %}active{% endif %}">
-          <a class="nav-link" href="{{ '/about' | prepend: site.baseurl }}">About</a>
-        </li>
-        <li class="nav-item {% if page.page_name == 'blogs' %}active{% endif %}">
-          <a class="nav-link" href="{{ '/blogs' | prepend: site.baseurl }}">Blogs</a>
         </li>
       </ul>
     </div>

@@ -28,37 +28,22 @@ body {
   margin-top: 100px;
 }
 
-#coming_soon {
-  background-image: url($asset_base_url + "/img/banner.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-
-  * {
-    box-sizing: border-box;
-  }
-  .container {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  h1 {
-    color: #fff;
-    font-size: 4rem;
-    margin-bottom: 0;
-  }
-  p {
-    color: yellow;
-    font-size: 2rem;
-  }
+.container {
+  max-width: 90%;
+  padding-left: 0;
+  padding-right: 0;
 }
 
-footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+// footer {
+//   position: fixed;
+//   bottom: 0;
+//   width: 100%;
+// }
+
+@media screen and (max-width: 520px) {
+  .container {
+    max-width: 85%;
+  }
 }
 
 @import "animate.min";

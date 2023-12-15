@@ -14,7 +14,7 @@
         <div class="carousel-inner">
           {% for slide in banner.slider %}
             <div class="carousel-item{% if forloop.index == 1 %} active{% endif %}">
-              <img src="{{ site.asset_base_url }}{{ slide.img }}" class="d-block w-100" alt="{{ slide.title }}">
+              <img src="{{ site.asset_base_url }}{{ slide.img }}" class="carousel-img d-block w-100" alt="{{ slide.title }}">
               <div class="carousel-caption">
                 <p class="mb-0">
                   {{ slide.title }}

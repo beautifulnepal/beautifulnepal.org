@@ -1,0 +1,67 @@
+<section class="places-list">
+  <div class="place-items-header">
+    <div class="container">
+      <div class="place-items-list">
+        <a class="place-filter-btn active" data-filter="recommended">Recommended</a>
+        <a class="place-filter-btn" data-filter="nature">Nature</a>
+        <a class="place-filter-btn" data-filter="adventure">Adventure</a>
+        <a class="place-filter-btn" data-filter="culture">Culture</a>
+        <a class="place-filter-btn" data-filter="city">City</a>
+        <a class="place-filter-btn" data-filter="village">Village</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row place-items-wrapper">
+      <div class="grid-sizer col-lg-2 col-md-3 col-12"></div>
+      <!-- need to set first grid-item as grid sizer -->
+      <div class="col-lg-2 col-md-3 col-12 grid-item recommended nature">
+        <div class="place-card">
+          <img class="place-card-img img-fluid shadow-sm"
+            src="{{ site.asset_base_url }}/img/places/nature/thumb.jpg" class="img-fluid" alt="Nature">
+            <p class="place-card-caption mb-0">
+              Nature, Nepal
+            </p>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-3 col-12 grid-item recommended adventure">
+        <div class="place-card">
+          <img class="place-card-img img-fluid shadow-sm"
+            src="{{ site.asset_base_url }}/img/places/adventure/thumb.jpg" class="img-fluid" alt="Adventure">
+          <p class="place-card-caption mb-0">
+            Adventure, Nepal
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-3 col-12 grid-item recommended culture">
+        <div class="place-card">
+          <img class="place-card-img img-fluid shadow-sm"
+            src="{{ site.asset_base_url }}/img/places/culture/thumb.jpg" class="img-fluid" alt="Culture">
+          <p class="place-card-caption mb-0">
+            Culture, Nepal
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-3 col-12 grid-item recommended city">
+        <div class="place-card">
+          <img class="place-card-img img-fluid shadow-sm"
+            src="{{ site.asset_base_url }}/img/places/city/thumb.jpg" class="img-fluid" alt="City">
+          <p class="place-card-caption mb-0">
+            City, Nepal
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-3 col-12 grid-item recommended village">
+        <div class="place-card">
+          <img class="place-card-img img-fluid shadow-sm"
+            src="{{ site.asset_base_url }}/img/places/village/thumb.jpg" class="img-fluid" alt="Village">
+        </div>
+        <p class="place-card-caption mb-0">
+          Village, Nepal
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
