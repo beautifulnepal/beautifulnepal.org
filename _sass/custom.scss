@@ -34,6 +34,45 @@ body {
   padding-right: 0;
 }
 
+.release-note {
+  padding: 8px 1.5rem;
+  background: #1605a8;
+  text-align: center;
+  color: #fff;
+
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  em {
+    text-decoration: underline;
+    font-weight: bold;
+  }
+}
+
+footer {
+  background-color: #0d007a;
+  color: #fff;
+
+  .social-links {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 0;
+    justify-content: center;
+    padding-left: 0;
+    margin: 5px 0 3px 0;
+
+    li {
+      font-size: 18px;
+      list-style: none;
+
+      i {
+        color: #fff;
+      }
+    }
+  }
+}
 // footer {
 //   position: fixed;
 //   bottom: 0;
@@ -43,6 +82,9 @@ body {
 @media screen and (max-width: 520px) {
   .container {
     max-width: 85%;
+  }
+  footer {
+    text-align: center;
   }
 }
 

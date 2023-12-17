@@ -1,15 +1,24 @@
 title: Beautiful Nepal
 email: c2edevofficial@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Beautifying Nepal digitally in Web
+year: 2023
+prerelease:
+  version: "v0.1-alpha.1"
+description: |-
+  Coding "Beautiful Nepal" on the Web.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://beautifulnepal.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://beautifulnepal.org"
 asset_base_url: /assets
 
-google_analytics: # your google analytics id
+google_analytics: "G-7GDYFRE9Y8"
 
 future: true # Show blog post of future date
 permalink: /blogs/:year/:month/:day/:title/
+
+github:
+ username: beautifulnepal
+ url: https://github.com/beautifulnepal/beautifulnepal.org/releases/tag/v0.1-alpha.1
+facebook:
+ username: btfulnepal
 
 # Pagination settings
 pagination:

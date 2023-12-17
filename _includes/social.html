@@ -1,15 +1,15 @@
-<ul class="social-media-list">
-  {%- if site.github_username -%}
+<ul class="social-links">
+  {%- if site.github -%}
     <li>
-      <a href="https://github.com/{{ site.github_username| cgi_escape | escape }}">
-        <i class="fab fa-github"></i><span class="ml-1">{{ site.github_username }}</span>
+      <a href="https://github.com/{{ site.github.username| cgi_escape | escape }}">
+        <i class="fab fa-github"></i><span class="ml-1">
       </a>
     </li>
   {%- endif -%}
-  {%- if site.twitter_username -%}
+  {%- if site.facebook -%}
     <li>
-      <a href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}">
-        <i class="fab fa-twitter"></i><span class="ml-1">{{ site.twitter_username }}</span>  
+      <a href="https://www.facebook.com/{{ site.facebook.username| cgi_escape | escape }}">
+        <i class="fab fa-facebook"></i><span class="ml-1"></span>
       </a>
     </li>
   {%- endif -%}
