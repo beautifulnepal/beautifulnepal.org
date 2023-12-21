@@ -9,7 +9,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://beautifulnepal.org"
 asset_base_url: /assets
 
-google_analytics: "G-7GDYFRE9Y8"
+google_analytics: "G-N6N6SD3DT4"
 
 future: true # Show blog post of future date
 permalink: /blogs/:year/:month/:day/:title/
