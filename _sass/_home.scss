@@ -78,6 +78,7 @@
           text-decoration: none;
           color: #999;
           font-weight: 600;
+          cursor: pointer;
         }
         .place-filter-btn.active, .place-filter-btn:hover {
           color: #111;
@@ -91,6 +92,10 @@
           border-radius: 12px;
           height: 15rem;
           object-fit: cover;
+          transform: 2s ease-in-out;
+        }
+        .place-card-img:hover{
+          transform: scale(105%);
         }
         .place-card-caption {
           margin-top: 8px;
